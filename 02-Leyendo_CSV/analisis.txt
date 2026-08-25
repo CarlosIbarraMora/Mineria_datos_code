@@ -1,3 +1,20 @@
-A. 
-B. 
-C. 
+Pregunta A: Observen la columna Fare (Tarifa del boleto). 
+¿Cuál es la diferencia matemática entre el percentil 75% (el tercer cuartil) y el valor Máximo (max)? 
+Como ingenieros de software, ¿qué les dice esta enorme dispersión estadística sobre la homogeneidad 
+de los precios que se cobraron en el barco?
+
+R: En el percentil 75, el valor de Fare es: 31.000000, mientras que el max es de 512.329200(diferencia de 481.32)
+, eso nos indica que hay valores atípicos en el set ya que la diferencia es muy grande (mayor dispersión).
+
+Pregunta B: Revisen la fila count (conteo total de registros válidos) de las distintas columnas en el 
+resultado de su .describe(). Comparen el conteo de la columna PassengerId con el conteo de la columna Age. 
+¿Qué anomalía de base de datos acaban de descubrir?
+R: El conteo es 891, mientras que age es 714, o sea que hay 177 pasajeros que no tienen registrada su edad. 
+
+Pregunta C: El algoritmo que construirán al final del semestre requiere que todos los pasajeros tengan un 
+valor numérico en la columna Age para poder compilar. Sabiendo lo que acaban de descubrir en la Pregunta B, 
+propongan al menos dos estrategias a nivel de base de datos o de programación para resolver este problema antes 
+de alimentar a la IA.
+R: Antes de pasarlo a un algoritmo, se pueden reemplazar los valores faltantes de edad por la mediana de las edades
+registradas(para evitar sesgos por valores atípicos). También se podrían simplemente eliminar, pero esto perdería
+177 registros de información, entonces no es conveniente.
