@@ -1,0 +1,16 @@
+Pregunta A (Sumarización Categórica): ¿Cuál es la tasa de supervivencia global del barco expresada en porcentaje?
+R: 38.3838% de supervivencia
+
+Pregunta B (Agrupación y Agregación):¿Qué porcentaje exacto de mujeres sobrevivió en contraste con los hombres?
+R: En mujeres el 74.2038% sobrevivió, mientras que en hombres el  18.8908% sobrevivió
+
+Pregunta C: El director financiero nota que la tarifa máxima (Fare) cobrada fue de más de 500 libras, mientras que 
+el promedio ronda las 32. Sospecha de outliers. Utilicen las herramientas de dispersión en Pandas para confirmarlo:
+   a. Q1 7.9104
+      Q3 31.0
+   b. IQR: 23.0896
+   c: límite superior: 65.6344, la mayoría de los que pagaron más de la tarifa limite son de primera clase:
+      1    104
+      2      5
+      3      7
+Pregunta D: 
