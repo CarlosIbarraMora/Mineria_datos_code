@@ -13,4 +13,25 @@ el promedio ronda las 32. Sospecha de outliers. Utilicen las herramientas de dis
       1    104
       2      5
       3      7
-Pregunta D: 
+Pregunta D: La media es aprox 32.20, y la mediana 14.45. Que haya casi el doble de diferencia indica que la distribución
+de Fare tiene sesgo hacia la derecha, debido a que existen registros de pasajeros que pagaron tarifas muy altas.
+En un algoritmo como KNN, afectaría de gran manera al modelo, debido a que tendría mucho peso en el cálculo de distancias y 
+haciendo que Fare domine sobre otras variables.
+
+Pregunta E: Ayuda a evitar un sesgo de clase porque evita que las clases con mayores muestras aparezcan en mayor proporción 
+en nuestra muestra de forma aleatoria.
+
+Pregunta F: Se produce sesgo por los datos faltantes. Si la mayoría pertenece a pasajeros de tercera clase que murierom, este
+grupo no queda representado para el cálculo de la edad. Esto causaría que la media obtenida puede no representar correctamente 
+la edad real de los pasajeros fallecidos.
+
+Pregunta G: No conviene eliminarlos debido a que esos datos están relacionados en su mayoría a primera clase, lo cual suena apegado
+a la realidad en términos de lujo.
+
+Pregunta H: Sería de gran ayuda debido a que el título contiene indirectamente información sobre la edad.
+Entonces, esto nos ayudaría a utilizar la mediana para rellenar información sobre los campos faltantes.
+
+Pregunta I: Si la varianza estuviera cerca de 0, significaríá que los registros permanecen en la misma clase(todos o sobrevivieron o no).
+No existiría variabilidad en la variable a predecir, lo cuál causaríá que los algoritmos no podríán aprender.
+
+Pregunta J: Eso causaría un sobreajuste debido a que con muy pocos pasajeros, el modelo puede memorizar esos casos y generalizar esos patrones.
