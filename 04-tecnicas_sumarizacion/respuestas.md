@@ -1,0 +1,6 @@
+| Técnica | Pregunta | Respuesta |
+|---|---|---|
+| Skewness | ¿Qué significa físicamente sobre la edad de los pasajeros en el barco? | El valor de skew es positivo, lo que significa que había una mayor concentración de pasajeros jóvenes y adultos y una menor cantidad de pasajeros de edad avanzada. |
+| Kurtosis | ¿Qué significa este número sobre el "grosor" de las colas de la distribución? | Indica que la distribución tiene colas que contienen valores muy alejados del centro. |
+| Kurtosis | ¿Confirma esto la existencia de los *outliers* que encontramos hoy en clase? | Sí confirma lo visto, ya que existen pasajeros con tarifas extremadamente altas que pueden considerarse *outliers*. |
+| Cross-Tabulation | ¿Qué patrón logran visualizar rápidamente al cruzar ambas variables? | Al cruzar ambas variables, se nota que los pasajeros de primera clase tuvieron mayor número de sobrevivientes, al contrario de tercera clase. Esto sugiere que la clase del pasajero está relacionada con su posibilidad de sobrevivir. |
