@@ -1,0 +1,16 @@
+¿qué significa físicamente sobre la edad de los pasajeros en el barco?
+R: El valor de skew es positivo, lo que significa que había una amyor 
+concentración de pasajeros jóvenes y adultos y una menor cantidad de 
+pasajeros de edad avanzada.
+
+¿Qué significa este número sobre el "grosor" de las colas de la distribución?
+R: Indica que la distribución tiene colas que contienen valores muy alejados del centro.
+
+¿Confirma esto la existencia de los outliers que encontramos hoy en clase?
+R: Si confirma lo visto, ya que existen pasajeros con tarifas extremadamente altas
+que pueden considerarse outliers.
+
+¿Qué patrón logran visualizar rápidamente al cruzar ambas variables?
+R: Al cruzar ambas variables, se nota que los pasajeros de primera clase tuvieron mayor
+número de supervivientes, al contrario de tercera clase. Por lo que sugiere que la clase del
+pasajero está relacionado con su posibilidad de sobrevivir.
