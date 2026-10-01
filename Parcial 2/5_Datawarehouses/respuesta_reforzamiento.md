@@ -1,0 +1,3 @@
+Durante el proceso de Extract y Transform diario, descubres que la aplicación web transaccional guarda la máscara visual de la radiografía en base64 (una cadena de texto de 2 MB por fila). ¿Por qué sería un error catastrófico cargar (Load) ese string gigantesco en la Tabla de Hechos y cómo lo resolverías en tu tubería de datos?
+
+No conviene descargar la máscara para al tabla de hechos porque son muy pesadas y haría mas lento al warehouse. Convendría tal vez guardarlas por separado como archivos o algo por el estilo y solo gaudar un id_mascara o referencia que apunte a la máscara en específico.
